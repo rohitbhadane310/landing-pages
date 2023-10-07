@@ -1,32 +1,34 @@
 import React from "react";
 import img1 from "../assets/img/dest1.jpg";
-import Button from "../layouts/Button";
+import img2 from "../assets/img/dest2.jpg";
+import img3 from "../assets/img/dest3.jpg";
+
+import DestinationCard from "../layouts/DestinationCard";
 
 const Destination = () => {
   return (
-    <div>
-      <h1>Most Popular Destinations</h1>
+    <div className=" min-h-screen flex flex-col justify-center md:mx-32 mx-5">
+      <h1 className=" font-medium text-center text-4xl lg:mt-0 mt-16">
+        Most Popular Destinations
+      </h1>
 
-      <div>
-        <div>
-          <div className=" w-1/4">
-            <img src={img1} alt="img" />
-          </div>
-          <div>
-            <h2>Cappadocia</h2>
-            <p>
-              The red and orange sand of the desert are very beautiful, let's
-              take a trip here
-            </p>
-
-            <div>
-              <div>
-                <h1>Price</h1>
-              </div>
-              <Button />
-            </div>
-          </div>
-        </div>
+      <div className=" flex flex-col lg:flex-row gap-5 mt-14">
+        <DestinationCard
+          img={img1}
+          title="Paris, France"
+          para="Paris offers iconic landmarks like the Eiffel Tower and world-class
+          art at the Louvre Museum."
+        />
+        <DestinationCard
+          img={img2}
+          title="Dubai, UAE"
+          para="A city of superlatives, Dubai boasts towering skyscrapers, luxury shopping, and desert adventures"
+        />
+        <DestinationCard
+          img={img3}
+          title="Venice, Italy"
+          para="Explore the romantic canals and historic architecture of Venice, a city built on water."
+        />
       </div>
     </div>
   );

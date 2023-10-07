@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Features from "./components/Features";
 import Destination from "./components/Destination";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -19,7 +21,15 @@ const App = () => {
         </div>
 
         <div id="destination">
-          <Destination/>
+          <Destination />
+        </div>
+
+        <div id="about">
+          <About />
+        </div>
+
+        <div id="contact">
+          <Contact />
         </div>
       </main>
     </div>
