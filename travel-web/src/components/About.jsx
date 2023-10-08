@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../assets/img/about.jpg";
 import Button from "../layouts/Button";
+import { Link } from "react-scroll";
 
 const About = () => {
   const backgroundColor = `bg-white`;
@@ -11,11 +12,13 @@ const About = () => {
           At TripPixie, we are ready to provide you with the best trip of your
           life!
         </h1>
-        <p className=" text-[#bdbdbd]">
+        <p className=" text-[#bdbdbd] pb-5">
           Your dream vacation awaits, and we're here to make it a reality.
         </p>
 
-        <Button title="Contact Now" backgroundColor={backgroundColor} />
+        <Link to="contact" spy={true} smooth={true} duration={500}>
+          <Button title="Contact Now" backgroundColor={backgroundColor} />
+        </Link>
       </div>
       <div className=" w-full lg:w-2/4">
         <img className=" rounded-2xl" src={img} alt="img" />
