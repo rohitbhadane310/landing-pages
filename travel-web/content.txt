@@ -1,0 +1,69 @@
+colors: {
+    darkBackground: "#0C111F",
+    brightColor: "#F9EC7D",
+},
+
+
+HOME -:
+Discover the Best Destinations
+
+With TripPixie you can experience new travel and the best tourist
+destinations that we have to offer
+
+
+
+FEATURES -:
+Get Ready to Explore, Get Ready to Experience!
+
+Discover the Best Holiday Experiences with TripPixie! We're
+dedicated to curating the latest and greatest destinations from
+around the world, ensuring you always get the ultimate travel
+experience.
+
+Friendly Service
+We will provide excellent and friendly service for the sake of our
+customers.
+
+Unforgettable experience
+We will provide excellent and Unforgettable experience for the
+sake of our customers.
+
+Affordable prices
+We will provide excellent and Affordable prices for the sake of
+our customers.
+
+
+
+
+Destinations-: 
+
+Paris, France
+Paris offers iconic landmarks like the Eiffel Tower and world-class
+art at the Louvre Museum.
+
+Dubai, UAE
+A city of superlatives, Dubai boasts towering skyscrapers, luxury shopping, and desert adventures
+
+Venice, Italy
+Explore the romantic canals and historic architecture of Venice, a city built on water.
+
+
+
+ABOUT -:
+
+At TripPixie, we are ready to provide you with the best trip of your
+life!
+
+Your dream vacation awaits, and we're here to make it a reality.
+
+
+
+CONTACT -:
+
+We'd love to hear from you! Whether you have questions, feedback, or
+need assistance with your travel plans, please don't hesitate to
+reach out. Our team is here to assist you every step of the way.
+Simply fill out the form below, and we'll be in touch shortly.
+
+
+
