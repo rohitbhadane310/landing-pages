@@ -32,13 +32,13 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              to="services"
+              to="dishes"
               spy={true}
               smooth={true}
               duration={500}
               className=" hover:text-brightColor transition-all cursor-pointer"
             >
-              Services
+              Dishes
             </Link>
             <Link
               to="about"
@@ -57,6 +57,15 @@ const Navbar = () => {
               className=" hover:text-brightColor transition-all cursor-pointer"
             >
               Menu
+            </Link>
+            <Link
+              to="review"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className=" hover:text-brightColor transition-all cursor-pointer"
+            >
+              Reviews
             </Link>
 
             <Button title="login" />
@@ -81,13 +90,13 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="services"
+            to="dishes"
             spy={true}
             smooth={true}
             duration={500}
             className="hover:text-brightColor transition-all cursor-pointer"
           >
-            Services
+            Dishes
           </Link>
           <Link
             to="about"
@@ -106,6 +115,15 @@ const Navbar = () => {
             className="hover:text-brightColor transition-all cursor-pointer"
           >
             Menu
+          </Link>
+          <Link
+            to="review"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className=" hover:text-brightColor transition-all cursor-pointer"
+          >
+            Reviews
           </Link>
 
           <Button title="login" />
