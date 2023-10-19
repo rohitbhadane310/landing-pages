@@ -7,7 +7,7 @@ const About = () => {
     <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center lg:px-32 px-5">
       <img src={img} alt="img" />
 
-      <div className=" space-y-4">
+      <div className=" space-y-4 lg:pt-14">
         <h1 className=" font-semibold text-4xl text-center md:text-start">
           Why Choose Us?
         </h1>

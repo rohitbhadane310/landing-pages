@@ -7,7 +7,7 @@ import menu3 from "../assets/img/menu3.jpg";
 const Menu = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center lg:px-32 px-5">
-      <h1 className=" text-4xl font-semibold text-center pt-8 pb-10">
+      <h1 className=" text-4xl font-semibold text-center lg:pt-8 pt-24 pb-10">
         Premium Menu
       </h1>
 
